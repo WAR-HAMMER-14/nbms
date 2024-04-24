@@ -1,0 +1,292 @@
+label{font-size: 15px; color: #252525; font-weight: 500; margin-bottom:0px; }
+input[type="text"] { border: 0px; border: solid 1px #e2e2e2; display: inline-block; padding:8px 10px; width: 100% !important; font-size: 14px;  color: #2c234d;  margin-bottom: 10px;  outline: none;}
+
+input[type="date"] { border: 0px; border: solid 1px #e2e2e2; display: inline-block; padding:8px 10px; width: 100% !important; font-size: 14px;  color: #2c234d;  margin-bottom: 10px;  outline: none;}
+
+select { border: 0px; border: solid 1px #e2e2e2; display: inline-block; padding:10px 10px; width: 100% !important;
+font-size: 14px;  color: #2c234d;  margin-bottom: 10px;  outline: none; background-color: #fff;}
+
+input[type="email"] { border: 0px; border: solid 1px #e2e2e2; display: inline-block; padding:8px 10px; width: 100% !important;
+font-size: 14px;  color: #2c234d;  margin-bottom: 10px;  outline: none;}
+
+input[type="password"] { border: 0px; border: solid 1px #e2e2e2; display: inline-block; width: 100% !important;
+font-size: 14px;  color: #2c234d;  margin-bottom: 10px;  outline: none;}
+
+input[type="file"] { border: 0px; border: solid 1px #e2e2e2; display: inline-block; padding:8px 10px; width: 100% !important;
+font-size: 14px;  color: #2c234d; outline: none;}
+input[type="number"] { border: 0px; border: solid 1px #e2e2e2; display: inline-block; padding:8px 10px; width: 100% !important;
+font-size: 14px;  color: #2c234d;  margin-bottom: 10px;  outline: none;}
+
+input[type="tel"] { border: 0px; border: solid 1px #e2e2e2; display: inline-block; padding:8px 10px; width: 100% !important;
+font-size: 14px;  color: #2c234d;  margin-bottom: 10px;  outline: none;}
+
+textarea { border: 0px; border: solid 1px #e2e2e2; display: inline-block; padding:8px 10px; width: 100% !important;
+font-size: 14px;  color: #2c234d;  margin-bottom: 10px;  outline: none; height: 100px;}
+
+table{border: solid 0px #d3d3d3 ; margin-top: 10px; font-size: 14px; line-height: 18px;}
+table td{color: #525252; font-weight: 400; font-size: 14px;}
+table th{color: #252525; font-weight: 500; font-size: 14px;}
+figure {margin: 5px 0px 0px 16px; display: inline-block; font-size: 14px;}
+input[type=checkbox] { width: 21px; height: 21px; vertical-align: middle; -webkit-appearance: none; background: none; border: 0; outline: 0; flex-grow: 0; border-radius: 15%; background-color: #FFFFFF; transition: background 300ms; cursor: pointer; float: none; margin-right:5px; margin-top: 0px; }
+input[type=checkbox]::before { content: ""; color: transparent; display: block; width: inherit; height: inherit; border-radius: inherit; border: 0; background-color: transparent; background-size: contain; box-shadow: inset 0 0 0 1px #CCD3D8; }
+input[type=checkbox]:checked { background-color: #498b2a; }
+input[type=checkbox]:checked::before { box-shadow: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E %3Cpath d='M15.88 8.29L10 14.17l-1.88-1.88a.996.996 0 1 0-1.41 1.41l2.59 2.59c.39.39 1.02.39 1.41 0L17.3 9.7a.996.996 0 0 0 0-1.41c-.39-.39-1.03-.39-1.42 0z' fill='%23fff'/%3E %3C/svg%3E"); font-size: 16px; transform: scale(1.4); }
+
+
+.addButSM{display: inline-block; width: auto !important;border: 0px; border: solid 1px #498b2a; padding: 3px 16px; background-color: #498b2a;
+border-radius: 5px;font-size: 14px;color: #fff;cursor: pointer;outline: none;font-weight: 500;letter-spacing: .5px; margin-bottom: 5px; }
+.addButSM:hover { display: inline-block;  width: auto !important;  border: 0px;  border: solid 1px #498b2a; padding: 3px 16px; background-color: #fff;  border-radius: 5px;  font-size: 14px; color: #498b2a; cursor: pointer; outline: none; font-weight: 500; letter-spacing: .5px; margin-bottom: 5px; text-decoration: none;}
+
+.submitBtn{display: inline-block;width: auto !important;border: 0px;border: solid 1px #498b2a;padding: 8px 24px;background-color: #498b2a;
+border-radius: 5px;font-size: 14px;color: #fff;cursor: pointer;outline: none;font-weight: 500;letter-spacing: .5px; margin-bottom: 5px; }
+.submitBtn:hover { display: inline-block;  width: auto !important;  border: 0px;  border: solid 1px #498b2a;  padding: 8px 24px; background-color: #fff;  border-radius: 5px;  font-size: 14px; color: #498b2a; cursor: pointer; outline: none; font-weight: 500; letter-spacing: .5px; margin-bottom: 5px; text-decoration: none;}
+
+.backBtn{display: inline-block;width: auto !important;border: 0px;border: solid 1px #363636;padding: 8px 24px;background-color: #363636;
+border-radius: 5px;font-size: 14px;color: #fff;cursor: pointer;outline: none;font-weight: 500;letter-spacing: .5px; margin-bottom: 5px; }
+.backBtn:hover { display: inline-block;  width: auto !important;  border: 0px;  border: solid 1px #363636;  padding: 8px 24px; background-color: #fff;  border-radius: 5px;  font-size: 14px; color: #363636; cursor: pointer; outline: none; font-weight: 500; letter-spacing: .5px; margin-bottom: 5px; text-decoration: none;}
+
+
+
+
+
+fieldset input[type="text"]{ outline:0; font-size: 16px; width: 100%;  border: none; font-size:15px;  color: #00000080;  font-style: italic; padding: 0px !important;}
+fieldset input[type="email"]{ outline:0; font-size: 16px; width: 100%;  border: none;  font-size:15px;  color: #00000080; font-style: italic; padding: 0px !important; }
+fieldset input[type="tel"]{  outline:0;font-size: 16px; width: 100%;  border: none;  font-size:15px;  color: #00000080; font-style: italic;}
+fieldset input[type="password"]{ outline:0; font-size: 16px; width: 100%;  border: none; font-size:15px;  color: #00000080; font-style: italic; }
+input[type="submit"]{ outline:0; background-color: #498b2a; text-align: center; padding:14px 25px; border: none; width: 100%;
+border-radius: 30px;cursor: pointer; color: #fff; font-size:18px; font-weight: 600; margin: 0 auto;}
+
+@media (min-width:1369px) and (max-width: 1556px) {
+
+}
+@media (min-width:1352px) and (max-width: 1368px) {
+.bms_Right {padding: 8px 0px;} 	
+.spaceLeft {padding: 8px 15px 8px;}
+
+.sendForgotPassBtnStyle { padding: 10px 20px !important; width: 49% !important; }
+.refToLoginBtn { padding: 10px 20px !important; width: 49% !important;}
+}
+@media (min-width:1200px) and (max-width: 1351px) {
+    h1, h1 a, h1 a:hover {
+        color: #2e2e2e;
+        margin: 0px !important;
+        padding: 0;
+        font-size: 22px;
+        text-transform: uppercase;
+        font-weight: 600;
+      }
+
+.bms_Right {padding: 8px 0px;} 	
+
+.spaceLeft {padding: 8px 15px 8px;}
+.attendryBase form {padding: 10px 10px; margin-top: 10px;}
+.attendryBase {padding: 15px 0px 15px;}
+.buildingService figure { margin: 0px 0px 4px 0px;  font-size: 14px;}
+
+.dashboardTitle { font-size: 3rem;   margin-bottom: 20px; font-weight: 600; text-align: center; }
+.dashboardSubTitle { font-size: 18px;  text-align: center;}
+
+.sendForgotPassBtnStyle { padding: 10px 20px !important; width: 100% !important; }
+.refToLoginBtn { padding: 10px 20px !important; width: 100% !important;}
+
+.buildingPublicBase { margin: 20px;}
+.buildingName {padding: 15px 20px;  font-size: 34px; line-height:45px;}
+.greenBar { margin-bottom: 10px; text-align: right; line-height: 17px; font-size: 14px; padding: 6px 18px;}
+.infoTextbase { font-size: 18px; line-height: 24px;}
+.bmsRightArea { margin: 124px 0px 62px 0px; text-align: center; padding: 10px;}
+.dotsleft {top: -21px; left: -37px; z-index: 1;}
+.rightAreaImgBase img {width: 100%; height: auto; overflow: hidden;}
+.dotsright { bottom: -18px; right: -6px; z-index: 1;}
+.infoSmTextbase {font-size: 15px; font-weight: 500; color: #1d1d1d; line-height: 18px; margin-top: 6px; margin-bottom: 8px;}
+
+
+}
+@media (min-width:991px) and (max-width: 1199px) {
+.bms_Right {padding: 8px 0px;} 	
+.table-responsive .table {width: 1200px !important; max-width: 1200px !important; }
+.spaceLeft {padding: 8px 15px 8px;}
+
+.left_base ul li a {display: block; font-size: 12px; font-weight: 500; padding-left: 10px; margin-left: 5px; padding-top: 0px; padding-bottom: 0px; line-height: 28px;}
+.left_base ul li a:hover {display: block; font-size: 12px; font-weight: 500; padding-left: 10px; margin-left: 5px; padding-top: 0px; padding-bottom: 0px; line-height: 28px;}
+
+.pagination ul li {padding: .5rem .5rem;}
+.pagination ul li:hover{padding: .5rem .5rem;}
+.navbar-brand { margin-right: 0rem !important;}
+
+.attendryBase form {padding: 10px 10px; margin-top: 10px;}
+.attendryBase {padding: 15px 0px 15px;}
+.buildingService figure { margin: 0px 0px 4px 0px;  font-size: 14px;}
+.dashboardTitle { font-size: 3rem;   margin-bottom: 20px; font-weight: 600; text-align: center; }
+.dashboardSubTitle { font-size: 18px;  text-align: center;}
+.sendForgotPassBtnStyle { padding: 10px 20px !important; width: 49% !important; }
+.refToLoginBtn { padding: 10px 20px !important; width: 49% !important;}
+
+.resetPassBtnDisable { width: 100% !important; }
+.resetPassBtnEnable { width: 100% !important; }
+
+.buildingPublicBase { margin: 20px;}
+.buildingName {padding: 12px 20px;  font-size: 24px;   line-height: 30px;}
+.greenBar { margin-bottom: 10px; text-align: right; line-height: 17px; font-size: 12px; padding: 5px 8px;}
+.infoTextbase { font-size: 13px; line-height: 24px;}
+.bmsRightArea { margin: 124px 0px 62px 0px; text-align: center; padding: 0px;}
+.dotsleft {top: -21px; left: -8px; z-index: 1;}
+.rightAreaImgBase img {width: 100%; height: auto; overflow: hidden;}
+.dotsright { bottom: -18px; right: -6px; z-index: 1;}
+.infoSmTextbase {font-size: 13px; font-weight: 500; color: #1d1d1d; line-height: 18px; margin-top: 6px; margin-bottom: 8px;}
+
+
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+h1, h1 a, h1 a:hover { font-size: 24px;}
+.bms_Right {padding: 8px 0px;} 	
+.table-responsive .table {width: 1200px !important; max-width: 1200px !important; }
+.spaceLeft {padding: 8px 15px 8px;}
+
+.left_base ul li a {display: block; font-size: 12px; font-weight: 500; padding-left: 10px; margin-left: 5px; padding-top: 5px; padding-bottom: 5px; line-height:14px; background-position: left top 30%; }
+.left_base ul li a:hover {display: block; font-size: 12px; font-weight: 500; padding-left: 10px; margin-left: 5px; padding-top:5px; padding-bottom:5px; line-height:14px; background-position: left top 30%;}
+.left_base ul li.active a {background-position: left top 22%; line-height: 14px;}
+
+.pagination ul li {padding: .5rem .5rem;}
+.pagination ul li:hover{padding: .5rem .5rem;}
+.navbar-brand { margin-right: 0rem !important;}
+label {font-size: 14px; line-height: 14px;}
+
+.attendryBase form {padding: 10px 10px; margin-top: 10px;}
+.attendryBase {padding: 15px 0px 15px;}
+.buildingService figure { margin: 0px 0px 4px 0px;  font-size: 14px;}
+
+.dashboardTitle { font-size: 2rem;   margin-bottom: 20px; font-weight: 600; text-align: center; }
+.dashboardSubTitle { font-size: 18px;  text-align: center;}
+
+.sendForgotPassBtnStyle { padding: 10px 20px !important; width: 100% !important; }
+.refToLoginBtn { padding: 10px 20px !important; width: 100% !important;}
+.loginHolder { padding: 16px;}
+.resetPassBtnDisable { width: 100% !important; }
+.resetPassBtnEnable { width: 100% !important; }
+
+.buildingPublicBase { margin: 20px;}
+.buildingName {padding: 12px 20px;  font-size: 22px;   line-height: 30px;}
+.greenBar { margin-bottom: 10px; text-align: right; line-height: 17px; font-size: 12px; padding: 5px 8px;}
+.infoTextbase { font-size: 13px; line-height: 24px;}
+.bmsRightArea { margin: 124px 0px 62px 0px; text-align: center; padding: 0px;}
+.dotsleft {top: -21px; left: -8px; z-index: 1;}
+.rightAreaImgBase img {width: 100%; height: auto; overflow: hidden;}
+.dotsright { bottom: -18px; right: -6px; z-index: 1;}
+.infoSmTextbase {font-size: 13px; font-weight: 500; color: #1d1d1d; line-height: 18px; margin-top: 6px; margin-bottom: 8px;}
+
+
+}
+
+@media (min-width:640px) and (max-width: 767px) {
+h1, h1 a, h1 a:hover { font-size: 24px;}	
+.bms_Right {padding: 8px 0px;} 	
+.table-responsive .table {width: 1200px !important; max-width: 1200px !important; }
+.spaceLeft {padding: 8px 15px 8px;}
+.pagination {float: none;}
+.searchBase label {display: block; margin-bottom: 0px;}
+.searchBase input[type="text"] { width: 100% !important; padding: 2px 5px; margin-bottom: 0px;}
+.searchBase select {padding: 5px 5px; width: 100% !important; font-size: 14px; margin-bottom:5px; outline: none;}
+.spacePadding{text-align: right;}
+
+.attendryBase form {padding: 10px 10px; margin-top: 10px;}
+.attendryBase {padding: 15px 0px 15px;}
+.searchBase input[type="date"] {width:100% !important;}
+footer p { font-size: 13px;}
+.buildingService figure { margin: 0px 0px 4px 0px;  font-size: 14px;}
+
+.dashboardTitle { font-size: 2rem;   margin-bottom: 20px; font-weight: 600; text-align: center; }
+.dashboardSubTitle { font-size: 18px;  text-align: center;}
+
+
+.sendForgotPassBtnStyle { padding: 10px 20px !important; width: 49% !important; }
+.refToLoginBtn { padding: 10px 20px !important; width: 49% !important;}
+.resetPassBtnDisable { width: 100% !important; }
+.resetPassBtnEnable { width: 100% !important; }
+
+.buildingPublicBase { margin: 20px;}
+.buildingName { padding: 15px 20px; font-size: 30px; line-height: 40px;}
+.greenBar {margin-bottom: 0px; text-align: left;}
+.infoTextbase { font-size: 20px; line-height: 28px;}
+.bmsRightArea { margin: 20px 0px 20px 0px; text-align: center; padding: 0px;}
+.dotsleft {top: -21px; left: -8px; z-index: 1;}
+.rightAreaImgBase img {width: 100%; height: auto; overflow: hidden;}
+.dotsright { bottom: -18px; right: -6px; z-index: 1;}
+
+
+}
+
+@media (min-width:480px) and (max-width: 639px) {	
+ h1, h1 a, h1 a:hover { font-size: 24px;}		
+.bms_Right {padding: 8px 0px;} 	
+.table-responsive .table {width: 1200px !important; max-width: 1200px !important; }
+.spaceLeft {padding: 8px 15px 8px;}
+.pagination {float: none;}
+.searchBase label {display: block; margin-bottom: 0px;}
+.searchBase input[type="text"] { width: 100% !important; padding: 2px 5px; margin-bottom: 0px;}
+.searchBase select {padding: 5px 5px; width: 100% !important; font-size: 14px; margin-bottom:5px; outline: none;}
+.spacePadding{text-align: right;}
+
+.attendryBase form {padding: 10px 10px; margin-top: 10px;}
+.attendryBase {padding: 15px 0px 15px;}
+.searchBase input[type="date"] {width:100% !important;}
+footer p { font-size: 12px;}
+.buildingService figure { margin: 0px 0px 4px 0px; display: block;font-size: 14px;}
+
+.dashboardTitle { font-size: 2rem;   margin-bottom: 20px; font-weight: 600; text-align: center; }
+.dashboardSubTitle { font-size: 18px;  text-align: center;}
+
+.sendForgotPassBtnStyle { padding: 10px 20px !important; width: 100% !important; }
+.refToLoginBtn { padding: 10px 20px !important; width: 100% !important;}
+.resetPassBtnDisable { width: 100% !important; }
+.resetPassBtnEnable { width: 100% !important; }
+
+
+.buildingPublicBase { margin: 20px;}
+.buildingName { padding: 15px 20px; font-size: 30px; line-height: 40px;}
+.greenBar {margin-bottom: 0px; text-align: left;}
+.infoTextbase { font-size: 20px; line-height: 28px;}
+.bmsRightArea { margin: 20px 0px 20px 0px; text-align: center; padding: 0px;}
+.dotsleft {top: -21px; left: -8px; z-index: 1;}
+.rightAreaImgBase img {width: 100%; height: auto; overflow: hidden;}
+.dotsright { bottom: -18px; right: -6px; z-index: 1;}
+
+
+}
+
+@media (min-width:360px) and (max-width: 479px) {
+ h1, h1 a, h1 a:hover { font-size: 24px;}	
+.bms_Right {padding: 8px 0px;} 	
+.table-responsive .table {width: 1200px !important; max-width: 1200px !important; }
+.spaceLeft {padding: 8px 15px 8px;}
+.pagination {float: none;}
+.searchBase label {display: block; margin-bottom: 0px;}
+.searchBase input[type="text"] { width: 100% !important; padding: 2px 5px; margin-bottom: 0px;}
+.searchBase select {padding: 5px 5px; width: 100% !important; font-size: 14px; margin-bottom:5px; outline: none;}
+.spacePadding{text-align: right;}
+.backButtn {float: none;}
+.attendryBase form {padding: 10px 10px; margin-top: 10px;}
+.attendryBase {padding: 15px 0px 15px;}
+.searchBase input[type="date"] {width:100% !important;}
+footer p { font-size: 12px;}
+.buildingService figure { margin: 0px 0px 4px 0px; display: block;font-size: 14px;}
+
+.dashboardTitle { font-size: 2rem;   margin-bottom: 20px; font-weight: 600; text-align: center; }
+.dashboardSubTitle { font-size: 18px;  text-align: center;}
+.sendForgotPassBtnStyle { padding: 10px 20px !important; width: 100% !important; }
+.refToLoginBtn { padding: 10px 20px !important; width: 100% !important;}
+.resetPassBtnDisable { width: 100% !important; }
+.resetPassBtnEnable { width: 100% !important; }
+
+.buildingPublicBase { margin: 20px;}
+.buildingName { padding: 15px 20px; font-size: 30px; line-height: 40px;}
+.greenBar {margin-bottom: 0px; text-align: left;}
+.infoTextbase { font-size: 20px; line-height: 28px;}
+.bmsRightArea { margin: 20px 0px 20px 0px; text-align: center; padding: 0px;}
+.dotsleft {top: -21px; left: -8px; z-index: 1;}
+.rightAreaImgBase img {width: 100%; height: auto; overflow: hidden;}
+.dotsright { bottom: -18px; right: -6px; z-index: 1;}
+
+
+
+}
